@@ -73,6 +73,7 @@ docs/_build/
 docs/node_modules/
 docs/build/
 docs/.docusaurus/
+docs/tsconfig.tsbuildinfo
 # Auto-generated tentacle docs (from collect-tentacles.mjs)
 docs/content/creators/
 docs/content/guides/exchanges.md
@@ -126,7 +127,6 @@ ENV/
 .mypy_cache/
 
 # IDE
-.vscode/
 .idea
 .gitpod.yml
 
@@ -166,7 +166,6 @@ cython_debug/
 letsencrypt/
 
 # dev env
-.env
 
 # Ansible decrypted temp files, SSH keys, and production collections config
 infra/**/*.dec.yml
@@ -191,3 +190,4 @@ installer/
 
 # ai
 analysis/
+config.bat
